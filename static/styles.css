@@ -20,8 +20,9 @@
 }
 
 .list-group-item img{
+    height: 100%;
     width: 50%;
-    aspect-ratio: 16 / 9;
+    object-fit: fill;
 }
 
 .gradient-background{
