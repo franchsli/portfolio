@@ -1,6 +1,19 @@
 [data-bs-theme=dark] body{
     background-color: #0c0c0c;
 }
+::-webkit-scrollbar {
+    width: 14px;               /* width of the entire scrollbar */
+  }
+  
+::-webkit-scrollbar-track {
+    background: #0c0c0c;        /* color of the tracking area */
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: var(--bs-tertiary-bg);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #0c0c0c;  /* creates padding around scroll thumb */
+  }
 
 .list-group li{
     background-color: var(--bs-dark-bg-subtle) !important;
