@@ -1,9 +1,15 @@
 # portfolio
 
- My portfolio.
+My portfolio.
 
-Example: [My fav example](https://www.kyawzinthiha.dev/#contacts)
 Tips: [Beginners guide](https://pesto.tech/resources/a-beginners-guide-to-creating-the-best-back-end-developer-portfolio)
-Even more examples: [Developer portfolios](https://github.com/emmabostian/developer-portfolios?tab=readme-ov-file)
 
 [Favorite](https://www.kyawzinthiha.dev/#home)
+
+TODO:
+
+1. Move "Resume" and "Github" buttons to the navbar.
+2. Make the projects buttons be all the frameworks used in that project (all non languages things).
+3. Write the languages used in the project flex-inline paragraphs.
+4. Make the navbar buttons work.
+5. Wrote the About Me in the Lorem ipsum.
