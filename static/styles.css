@@ -2,17 +2,17 @@
     background-color: #0c0c0c;
 }
 ::-webkit-scrollbar {
-    width: 14px;               /* width of the entire scrollbar */
+    width: 14px;
   }
   
 ::-webkit-scrollbar-track {
-    background: #0c0c0c;        /* color of the tracking area */
+    background: #0c0c0c;   
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: var(--bs-tertiary-bg);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #0c0c0c;  /* creates padding around scroll thumb */
+    background-color: var(--bs-tertiary-bg);
+    border-radius: 20px;       
+    border: 3px solid #0c0c0c;  
   }
 
 .list-group li{
@@ -28,4 +28,65 @@
 .gradient-background{
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(14, 14, 177, 1) 35%, rgba(0, 212, 255, 1) 100%);
     border: none;
+}
+
+.skill-category h3{
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+  
+.icons img{
+    transition: transform 0.2s;
+}
+  
+.icons img:hover{
+    transform: scale(1.1);
+}
+
+.icons img[src*="python"]:hover {
+    filter: drop-shadow(0 0 18px #306998);
+}
+
+.icons img[src*="js"]:hover {
+    filter: drop-shadow(0 0 18px #f0db4f);
+}
+
+.icons img[src*="html"]:hover {
+    filter: drop-shadow(0 0 18px #e34c26);
+}
+
+.icons img[src*="css"]:hover {
+    filter: drop-shadow(0 0 18px #264de4);
+}
+
+.icons img[src*="django"]:hover {
+    filter: drop-shadow(0 0 18px #092e20);
+}
+
+.icons img[src*="bootstrap"]:hover {
+    filter: drop-shadow(0 0 18px #563d7c);
+}
+
+.icons img[src*="postgresql"]:hover {
+    filter: drop-shadow(0 0 18px #336791);
+}
+
+.icons img[src*="git"]:hover {
+    filter: drop-shadow(0 0 18px #f34f29);
+}
+
+.icons img[src*="github"]:hover {
+    filter: drop-shadow(0 0 18px #988daa);
+}
+
+.icons img[src*="htmx"]:hover {
+    filter: drop-shadow(0 0 18px #949494);
 }
