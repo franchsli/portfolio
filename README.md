@@ -8,7 +8,7 @@ Tips: [Beginners guide](https://pesto.tech/resources/a-beginners-guide-to-creati
 
 TODO:
 
-1. Move "Resume" and "Github" buttons to the navbar.
+1. (DONE)
 2. Make the projects buttons be all the frameworks used in that project (all non languages things).
 3. Write the languages used in the project flex-inline paragraphs.
 4. Make the navbar buttons work.
