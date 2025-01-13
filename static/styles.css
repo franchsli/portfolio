@@ -1,6 +1,11 @@
 [data-bs-theme=dark] body{
-    background-color: #0c0c0c;
+    --bs-body-bg: #0c0c0c;
 }
+
+nav{
+    background-color: var(--bs-body-bg);
+}
+
 ::-webkit-scrollbar {
     width: 14px;
   }

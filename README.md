@@ -13,3 +13,4 @@ TODO:
 3. Write the languages used in the project flex-inline paragraphs.
 4. (DONE)
 5. Wrote the About Me in the Lorem ipsum.
+6. Make a sticky or fixed sidebar.
