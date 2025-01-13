@@ -11,5 +11,5 @@ TODO:
 1. (DONE)
 2. Make the projects buttons be all the frameworks used in that project (all non languages things).
 3. Write the languages used in the project flex-inline paragraphs.
-4. Make the navbar buttons work.
+4. (DONE)
 5. Wrote the About Me in the Lorem ipsum.
