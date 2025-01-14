@@ -95,3 +95,16 @@ nav{
 .icons img[src*="htmx"]:hover {
     filter: drop-shadow(0 0 18px #949494);
 }
+
+.icons img[src*="redis"]:hover {
+    filter: drop-shadow(0 0 18px #b80f0f);
+}
+
+.icons img[src*="cloudinary"]:hover {
+    filter: drop-shadow(0 0 18px #3448C5);
+}
+
+.tech-icon{
+    width: 4rem !important;
+    height: 4rem !important;
+}

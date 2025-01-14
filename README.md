@@ -9,8 +9,8 @@ Tips: [Beginners guide](https://pesto.tech/resources/a-beginners-guide-to-creati
 TODO:
 
 1. (DONE)
-2. Make the projects buttons be all the frameworks used in that project (all non languages things).
-3. Write the languages used in the project flex-inline paragraphs.
+2. (DONE)
+3. (DONE)
 4. (DONE)
 5. Wrote the About Me in the Lorem ipsum.
 6. Make a sticky or fixed sidebar or make the current navbar not being in the way when going to sections.
