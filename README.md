@@ -16,3 +16,4 @@ TODO:
 6. (DONE)
 7. Write projects descriptions.
 8. Think about the Skills section styling.
+9. Code something to make navbar buttons style when scrolled to the designed section.
