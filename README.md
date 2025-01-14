@@ -13,6 +13,6 @@ TODO:
 3. (DONE)
 4. (DONE)
 5. Write the About Me in the Lorem ipsum.
-6. Make a sticky or fixed sidebar or make the current navbar not being in the way when going to sections.
+6. (DONE)
 7. Write projects descriptions.
 8. Think about the Skills section styling.
