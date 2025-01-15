@@ -15,9 +15,9 @@ TODO:
 5. Write the About Me in the Lorem ipsum.
 6. (DONE)
 7. Write projects descriptions.
-8. Think about the Skills section styling.
-9. Code something to make navbar buttons style when scrolled to the designed section.
-10. Update franchli readme portfolio ("see my portfolio" link)
+8. (DONE)
+9. (DONE)
+10. (DONE)
 
 NOTES FOR LATER:
 About me: around 1000 chars.
