@@ -10,14 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const exception = item_button.innerText
             const path = window.location.href.split('#')
             if (path.length !== 1) {
-                console.log(path[1])
-                console.log(exception)
                 if(!exception.includes(path[1])){
                     item_button.classList.remove('btn-info', 'rounded-pill')
                 }
             }
             else if(!exception.includes('About me')){
-                console.log(exception)
                 item_button.classList.remove('btn-info', 'rounded-pill')
             }
         }
@@ -35,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     const observer = new IntersectionObserver((entries) => {
+        console.log(entries)
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 // Find the corresponding nav link
                 const id = entry.target.id
                 // Remove active class from all links
-                debugger
                 navbar_items.forEach(item => {
                     item.firstElementChild.classList.remove('btn-info', 'rounded-pill')
                 });
