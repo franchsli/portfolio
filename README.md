@@ -8,17 +8,6 @@ Tips: [Beginners guide](https://pesto.tech/resources/a-beginners-guide-to-creati
 
 TODO:
 
-1. (DONE)
-2. (DONE)
-3. (DONE)
-4. (DONE)
-5. (DONE)
-6. (DONE)
-7. (DONE)
-8. (DONE)
-9. (DONE)
-10. (DONE)
-
-NOTES FOR LATER:
-About me: around 1000 chars.
-Projects: around 400 chars each one.
+1. Think about adding "contact me" button in navbar.
+2. Think about adding window.open() when clicking on projects.
+3. Think about adding the projects time lapse.
