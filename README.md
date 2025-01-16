@@ -14,7 +14,7 @@ TODO:
 4. (DONE)
 5. (DONE)
 6. (DONE)
-7. Write projects descriptions.
+7. (DONE)
 8. (DONE)
 9. (DONE)
 10. (DONE)
