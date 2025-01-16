@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     const observer = new IntersectionObserver((entries) => {
-        console.log(entries)
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 // Find the corresponding nav link
@@ -44,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Add active class to current section's link
                 const currentLink = document.querySelector(`.btn[href="#${id}"]`);
                 if (currentLink) {
-                    currentLink.classList.add('btn-info', 'rounded-pill')  // or your active class
+                    currentLink.classList.add('btn-info', 'rounded-pill')
                 }
             }
         });

@@ -12,7 +12,7 @@ TODO:
 2. (DONE)
 3. (DONE)
 4. (DONE)
-5. Write the About Me in the Lorem ipsum.
+5. (DONE)
 6. (DONE)
 7. Write projects descriptions.
 8. (DONE)
