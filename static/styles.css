@@ -43,7 +43,6 @@ html {
 
 .project-img{
     height: 100%;
-    width: 50%;
     object-fit: fill;
 }
 
