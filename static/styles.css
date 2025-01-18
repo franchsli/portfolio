@@ -124,3 +124,15 @@ html {
     width: 4rem !important;
     height: 4rem !important;
 }
+
+.modal-dialog{
+    max-width: 80rem;
+    min-width: 20rem;
+    max-height: 90vh;
+    min-height: 30rem;
+    overflow-y: auto;
+}
+
+.modal-dialog img{
+    width: 100%;
+}

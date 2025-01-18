@@ -137,7 +137,8 @@
                 <ul class="list-group">
                     <li class="list-group-item p-4">
                         <div class="row">
-                            <img class="project-img rounded col-12 col-sm-6" src="static/Chat App screenshot.png" alt="">
+                            <img role="button" class="project-img rounded col-12 col-sm-6" src="static/Chat App screenshot.png" alt="Project image"
+                            data-bs-toggle="modal" data-bs-target="#ChatAppModal">
                             <div class="col-12 col-sm-6">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="p-1">Chat App</h2>
@@ -165,10 +166,22 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="ChatAppModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ChatAppModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <img class="rounded" src="static/Chat App screenshot.png" alt="Project image">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="list-group-item p-4">
                         <div class="row">
-                            <img class="project-img rounded col-12 col-sm-6" src="static/Blog App screenshot.PNG" alt="">
+                            <img role="button" class="project-img rounded col-12 col-sm-6" src="static/Blog App screenshot.PNG" alt="Project image"
+                            data-bs-toggle="modal" data-bs-target="#BlogAppModal">
                             <div class="col-12 col-sm-6">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="p-1">Blog App</h2>
@@ -190,6 +203,17 @@
                                     <img class="tech-icon" src="static/icons/js.svg" alt="JavaScript" 
                                     data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="JavaScript">
                                 </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="BlogAppModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="BlogAppModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <img class="rounded" src="static/Blog App screenshot.PNG" alt="Project image">
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </li>
