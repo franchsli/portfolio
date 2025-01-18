@@ -2,6 +2,11 @@
     --bs-body-bg: #0c0c0c;
 }
 
+[data-bs-theme=light] body{
+    --bs-body-bg: #F0F8FF;
+    --bs-border-color: #a8afb3;
+}
+
 nav{
     background-color: var(--bs-body-bg);
 }
