@@ -2,11 +2,6 @@
 
 My portfolio.
 
-Tips: [Beginners guide](https://pesto.tech/resources/a-beginners-guide-to-creating-the-best-back-end-developer-portfolio)
-
-[Favorite](https://www.kyawzinthiha.dev/#home)
-
 TODO:
 
 1. Think about adding window.open('github repo link') when clicking on projects.
-2. Think about adding tooltips.
