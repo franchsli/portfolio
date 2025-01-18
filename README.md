@@ -8,6 +8,5 @@ Tips: [Beginners guide](https://pesto.tech/resources/a-beginners-guide-to-creati
 
 TODO:
 
-1. Think about adding "contact me" button in navbar.
-2. Think about adding window.open() when clicking on projects.
-3. Think about adding tooltips.
+1. Think about adding window.open('github repo link') when clicking on projects.
+2. Think about adding tooltips.
