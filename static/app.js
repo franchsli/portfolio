@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    window.intersecting_section = 0
     const navbar_items = document.querySelectorAll('#navbarContent ul li')
     const sections = document.querySelectorAll('.section')
     navbar_items.forEach((item) => {
@@ -15,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             else if(!exception.includes('About me')){
-                item_button.classList.remove('btn-info', 'rounded-pill')
+                if (intersecting_section !== item_button.innerText) {
+                    item_button.classList.remove('btn-info', 'rounded-pill')
+                }
             }
         }
         item.onclick = () => {
@@ -47,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const currentLink = document.querySelector(`.btn[href="#${id}"]`);
                 if (currentLink) {
                     currentLink.classList.add('btn-info', 'rounded-pill')
+                    intersecting_section = currentLink.innerText
                 }
             }
         });
