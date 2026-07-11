@@ -1,41 +1,41 @@
-function dark_theme () {
+function darkTheme () {
     const html = document.querySelector('html')
     html.dataset.bsTheme = 'dark'
     localStorage.setItem('theme', 'dark')
-    const theme_icon = document.getElementById('theme-icon')
-    theme_icon.classList.replace('bi-moon-fill', 'bi-sun-fill')
+    const themeIcon = document.getElementById('theme-icon')
+    themeIcon.classList.replace('bi-moon-fill', 'bi-sun-fill')
 }
 
-function light_theme(){
+function lightTheme(){
     const html = document.querySelector('html')
     html.dataset.bsTheme = 'light'
     localStorage.setItem('theme', 'light')
-    const theme_icon = document.getElementById('theme-icon')
-    theme_icon.classList.replace('bi-sun-fill', 'bi-moon-fill')
+    const themeIcon = document.getElementById('theme-icon')
+    themeIcon.classList.replace('bi-sun-fill', 'bi-moon-fill')
 }
 
-function load_actual_theme(){
+function loadActualTheme(){
     if (localStorage.getItem('theme') === 'light') {
-        light_theme()
+        lightTheme()
     }
     else {
-        dark_theme()
+        darkTheme()
     }
 }
 
-function switch_theme(){
+function switchTheme(){
     if(localStorage.getItem('theme') === 'light'){
-        dark_theme()
+        darkTheme()
     }
     else{
-        light_theme()
+        lightTheme()
     }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    load_actual_theme()
-    const theme_toggler = document.getElementById('theme-toggler')
-    theme_toggler.onclick = () => {
-        switch_theme()
+    loadActualTheme()
+    const themeToggler = document.getElementById('theme-toggler')
+    themeToggler.onclick = () => {
+        switchTheme()
     }
 })

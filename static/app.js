@@ -1,33 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
-    window.intersecting_section = 0
-    const navbar_items = document.querySelectorAll('#navbarContent ul li')
+    window.intersectingSection = 0
+    const navbarItems = document.querySelectorAll('#navbarContent ul li')
     const sections = document.querySelectorAll('.section')
-    navbar_items.forEach((item) => {
-        const item_button = item.firstElementChild
+    navbarItems.forEach((item) => {
+        const itemButton = item.firstElementChild
         item.onmouseenter = () => {
-            item_button.classList.add('btn-info', 'rounded-pill')
+            itemButton.classList.add('btn-info', 'rounded-pill')
         }
         item.onmouseleave = () => {
-            const exception = item_button.innerText
+            const exception = itemButton.innerText
             const path = window.location.href.split('#')
             if (path.length !== 1) {
                 if(!exception.includes(path[1])){
-                    item_button.classList.remove('btn-info', 'rounded-pill')
+                    itemButton.classList.remove('btn-info', 'rounded-pill')
                 }
             }
             else if(!exception.includes('About me')){
-                if (intersecting_section !== item_button.innerText) {
-                    item_button.classList.remove('btn-info', 'rounded-pill')
+                if (intersectingSection !== itemButton.innerText) {
+                    itemButton.classList.remove('btn-info', 'rounded-pill')
                 }
             }
         }
         item.onclick = () => {
-            const btn_link = item.firstElementChild
-            if(!btn_link.innerText.includes('Github') && !btn_link.innerText.includes('Resume')){
-                const current_navs_buttons = document.querySelectorAll('.rounded-pill')
-                current_navs_buttons.forEach(nav_button => {
-                    if (nav_button.innerText !== item.innerText) {
-                        nav_button.classList.remove('btn-info', 'rounded-pill')
+            const btnLink = item.firstElementChild
+            if(!btnLink.innerText.includes('Github') && !btnLink.innerText.includes('Resume')){
+                const currentNavsButtons = document.querySelectorAll('.rounded-pill')
+                currentNavsButtons.forEach(navButton => {
+                    if (navButton.innerText !== item.innerText) {
+                        navButton.classList.remove('btn-info', 'rounded-pill')
                     }
                 });
             }
@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Find the corresponding nav link
                 const id = entry.target.id
                 // Remove active class from all links
-                navbar_items.forEach(item => {
+                navbarItems.forEach(item => {
                     item.firstElementChild.classList.remove('btn-info', 'rounded-pill')
                 });
                 // Add active class to current section's link
                 const currentLink = document.querySelector(`.btn[href="#${id}"]`);
                 if (currentLink) {
                     currentLink.classList.add('btn-info', 'rounded-pill')
-                    intersecting_section = currentLink.innerText
+                    intersectingSection = currentLink.innerText
                 }
             }
         });
